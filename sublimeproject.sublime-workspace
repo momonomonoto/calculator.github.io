@@ -1,0 +1,1001 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"className"
+			],
+			[
+				"con",
+				"const"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"Re",
+				"ReactDOM"
+			],
+			[
+				"IM",
+				"important"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"di",
+				"displayedContacts"
+			],
+			[
+				"se",
+				"searchQuery"
+			],
+			[
+				"Di",
+				"displayedContacts"
+			],
+			[
+				"v",
+				"visibility"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"p",
+				"put"
+			],
+			[
+				"m",
+				"message"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/user/user.jsx",
+			"settings":
+			{
+				"buffer_size": 597,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/user/App.less",
+			"settings":
+			{
+				"buffer_size": 781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/App.less",
+			"settings":
+			{
+				"buffer_size": 784,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/user/palette.less",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/main.js",
+			"settings":
+			{
+				"buffer_size": 500,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import ReactDOM from 'react-dom';\nimport React from 'react';\nimport { Router, Route, hashHistory } from 'react-router';\n\nimport App from './App.jsx';\nimport AboutPage from './components/AboutPage.jsx';\nimport InboxPage from './components/InboxPage.jsx';\nimport Message from './components/Message.jsx';\n\nReactDOM.render(\n    <Router history={hashHistory}>\n        <Route path='/' component={App}>\n            <Route path='/about' component={AboutPage} />\n            <Route path='/inbox' component={InboxPage}>\n                <Route path='/inbox/messages/:mnpessageId' component={Message} />\n            </Route>\n        </Route>\n    </Router>,\n    document.getElementById('mount-point')\n);",
+			"file": "/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/main.js",
+			"file_size": 688,
+			"file_write_time": 131242650796204675,
+			"settings":
+			{
+				"buffer_size": 690,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/user/user.css",
+			"settings":
+			{
+				"buffer_size": 313,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/user/InboxPage.jsx",
+			"settings":
+			{
+				"buffer_size": 525,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/user/AboutPage.jsx",
+			"settings":
+			{
+				"buffer_size": 1440,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/components/AboutPage.jsx",
+			"settings":
+			{
+				"buffer_size": 1593,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/styles/palette.less",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/styles/palette.less",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Gold/Desktop/reacttest/src/user/App.less",
+		"/C/Users/Gold/Desktop/reacttest/src/user/palette.less",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/webpack.config.js",
+		"/C/Users/Gold/Desktop/reacttest/src/user/NotesApp.jsx",
+		"/C/Users/Gold/Desktop/reacttest/src/user/user.js",
+		"/C/Users/Gold/Desktop/reacttest/src/user/home.jsx",
+		"/C/Users/Gold/Desktop/reacttest/src/user/about..jsx",
+		"/C/Users/Gold/Desktop/reacttest/src/user/NoteEditor.jsx",
+		"/C/Users/Gold/Desktop/reacttest/src/user/NoteEditor.css",
+		"/C/Users/Gold/Desktop/reacttest/src/user/Note.jsx",
+		"/C/Users/Gold/Desktop/reacttest/src/user/NotesGrid.jsx",
+		"/E/ReactJS Essential/ReactJS Essential Student/003_Окружение/03-environment/00-packages-and-build/main.js",
+		"/C/Users/Gold/Desktop/reacttest/src/user/user.jsx",
+		"/C/Users/Gold/Desktop/react-starter-kit/script.js",
+		"/C/Users/Gold/Documents/Putty/key/Three version/public3",
+		"/C/Users/Gold/Documents/Putty/key/Three version/private3.ppk",
+		"/C/Users/Gold/Desktop/react-boilerplate/app/index.html",
+		"/C/Users/Gold/Desktop/react-boilerplate/app/app.js",
+		"/C/Users/Gold/Desktop/react-boilerplate/docs/README.md",
+		"/E/ReactJS Essential/ReactJS Essential Student/001_Введение в React/01-introduction-to-react/00-template/index.html",
+		"/E/ReactJS Essential/ReactJS Essential Student/001_Введение в React/01-introduction-to-react/02-contacts-search/inde1x.html",
+		"/E/ReactJS Essential/ReactJS Essential Student/001_Введение в React/01-introduction-to-react/01-using-props/index.html",
+		"/C/Users/Gold/Desktop/isomorpheus/source/code/isomorphic/components/home.js",
+		"/C/Users/Gold/Desktop/isomorpheus/source/code/isomorphic/components/users/profile.js",
+		"/C/Users/Gold/Desktop/isomorpheus/source/code/isomorphic/components/notification/error.js",
+		"/C/Users/Gold/Desktop/react-boilerplate/app/components/Button/index.js",
+		"/C/Users/Gold/Desktop/react-starter-kit/index.html",
+		"/C/Users/Gold/Desktop/reacttest/src/main.js",
+		"/E/ReactJS Essential/ReactJS Essential Student/002_Подробнее о компонентах/02-deep-in-components/01-lifecycle-demo/index.html",
+		"/C/Users/Gold/Desktop/reacttest/src/components/home.js",
+		"/C/Users/Gold/Desktop/reacttest/webpack.config.js",
+		"/C/Users/Gold/Desktop/reacttest/package.json",
+		"/E/ReactJS Essential/ReactJS Essential Student/003_Окружение/03-environment/00-packages-and-build/webpack.config.js",
+		"/E/ReactJS Essential/ReactJS Essential Student/003_Окружение/03-environment/00-packages-and-build/package.json",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/main.js",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/components/AboutPage.jsx",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/package.json",
+		"/C/Users/Gold/Desktop/reacttest/main.js",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/public/index.html",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/components/Message.jsx",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/components/MessagePreview.jsx",
+		"/C/Users/Gold/Desktop/reacttest/.babelrc",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/public/build/bundle.js",
+		"/C/Users/Gold/Desktop/reacttest/src/App.jsx",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/App.jsx",
+		"/C/Users/Gold/Documents/slotmachinescript/index.js-v=2.js",
+		"/C/Users/Gold/Documents/slotmachinescript/jquery.accordion.js",
+		"/C/Users/Gold/Documents/slotmachinescript/slotmachineswitcher.js-v=2.js",
+		"/C/Users/Gold/Documents/slotmachinescript/slots.js-v=2.js",
+		"/C/Users/Gold/Documents/slotmachinescript/soundmanager2.js",
+		"/C/Users/Gold/Documents/slotmachinescript/analytics.js",
+		"/C/Users/Gold/Documents/slotmachinescript/index.html",
+		"/C/Users/Gold/Desktop/recursion.txt",
+		"/C/Users/Gold/Desktop/loftschool/recursion/recursion.js",
+		"/C/Users/Gold/Desktop/reacttest/node_modules/postcss-discard-overridden/.babelrc",
+		"/C/Users/Gold/Desktop/reacttest/public/index.html",
+		"/E/ReactJS Essential/ReactJS Essential Student/003_Окружение/03-environment/00-packages-and-build/src/main.js",
+		"/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/main.js",
+		"/C/Users/Gold/Desktop/isomorpheus/package.json",
+		"/C/Users/Gold/Desktop/isomorpheus/.babelrc",
+		"/E/ReactJS Essential/ReactJS Essential Student/003_Окружение/03-environment/00-packages-and-build/public/index.html",
+		"/C/Users/Gold/Desktop/reacttest/public/build/bundle.js",
+		"/C/Users/Gold/Desktop/reacttest/src/components/primer.jsx",
+		"/C/Users/Gold/Desktop/reacttest/node_modules/babel/test/.babelrc",
+		"/C/Users/Gold/Desktop/reacttest/src/components/NotesApp.jsx",
+		"/C/Users/Gold/Desktop/reacttest/src/package.json",
+		"/C/Users/Gold/Desktop/reacttest/public/build/build/bundle.js",
+		"/E/ReactJS Essential/ReactJS Essential Student/003_Окружение/03-environment/00-packages-and-build/public/build/bundle.js",
+		"/C/Users/Gold/Desktop/reacttest/public/build/build.js",
+		"/C/Users/Gold/Desktop/reacttest/public/build/index.html",
+		"/C/Users/Gold/Desktop/codepen_dpzPJK/script.js",
+		"/E/Рабочий стол. Разное/РАзное/31 октября/Цитаты.txt",
+		"/E/Рабочий стол. Разное/РАзное/31 октября/Отмеченные страницы.txt",
+		"/C/Users/Gold/Desktop/TestWork/index.html",
+		"/C/Users/Gold/Desktop/codepen_dpzPJK/index.html",
+		"/E/ReactJS Essential/ReactJS Essential Student/001_Введение в React/01-introduction-to-react/02-contacts-search/index.html",
+		"/C/Users/Gold/Desktop/TestWork/css/style.css",
+		"/C/Users/Gold/Desktop/js работа/Новый текстовый документ.html",
+		"/C/Users/Gold/Desktop/3 занятие/Аудитория facebook/login_geo.txt",
+		"/C/Posting/mylovefact/hard_gym_11.10.2016 01ч 10м.txt",
+		"/C/Posting/Результат/hard_gym_11.10.2016 01ч 10м.txt",
+		"/C/Users/Gold/Desktop/3 занятие/id_москваучастникиinstagram(sport)(дляid).filtered.txt",
+		"/C/Users/Gold/Desktop/3 занятие/парсинг hard_gym/itog_hard_gym-.txt",
+		"/C/Users/Gold/Desktop/Удалить папку(проект agapov)/Результат/hard_gym_16.10.2016 10ч 09м.txt",
+		"/C/Users/Gold/Desktop/Удалить папку(проект agapov)/Результат/hard_gym_16.10.2016 10ч 10м.txt",
+		"/C/Users/Gold/Desktop/Удалить папку(проект agapov)/itog_hard_gym.txt",
+		"/C/Users/Gold/Desktop/Удалить папку(проект agapov)/itog_hard_gym-dubrovskaya.corset.txt",
+		"/C/Users/Gold/Desktop/js работа/assets.css",
+		"/C/Users/Gold/Desktop/js работа/index.html",
+		"/C/Users/Gold/Desktop/3 занятие/парсинг dubrovskaya.corset/itog_dubrovskaya.corset-.txt",
+		"/C/Users/Gold/Desktop/3 занятие/Результат/hard_gym_14.10.2016 05ч 50м.txt",
+		"/C/Users/Gold/Desktop/3 занятие/Результат/hard_gym_14.10.2016 05ч 43м.txt",
+		"/C/Users/Gold/Desktop/JavaScript_ Раскрывающееся меню.html",
+		"/C/Users/Gold/Desktop/Тестовое задание/1270/booletplate/css/main.css",
+		"/C/Users/Gold/Desktop/Тестовое задание/1270/booletplate/index.html",
+		"/C/Users/Gold/Desktop/Статистика для групп/Примеры рекламы/Новый текстовый документ.txt",
+		"/C/Users/Gold/Desktop/Ресуры photosop/id_simple.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/16.09.2016/Корсеты/id_simple.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/16.09.2016/Корсеты/login_simple.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/16.09.2016/Корсеты/Рассылка.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/akk.txt",
+		"/C/Users/Gold/Desktop/js работа/королев",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/marykay_ul/19 сентября/login_simple.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/marykay_ul/19 сентября/id_simple.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/marykay_ul/19 сентября/19 september",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/16.09.2016/Корсеты/21 09/Рассылка 200 людей.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/16.09.2016/Корсеты/21 09/id_1579147164.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/16.09.2016/Корсеты/21 09/login_1579147164.txt",
+		"/E/Рабочий стол. Разное/РАзное/160216/автовебофис.txt",
+		"/C/Users/Gold/Downloads/to_add_style.txt",
+		"/C/Users/Gold/Desktop/js работа/1. При использованиии массфоловинга и трафика с гр",
+		"/C/Users/Gold/Desktop/smart/прозвоны.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/16.09.2016/id_2177289649.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/start.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/аккаунты.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/message.txt",
+		"/C/Users/Gold/Desktop/Ресуры photosop/login_simple.txt",
+		"/C/Users/Gold/Desktop/i-direct_ru/base/Новый текстовый документ.txt",
+		"/C/Users/Gold/Desktop/Тестовое задание/прямоугольник/прям.html",
+		"/C/Users/Gold/Desktop/Тестовое задание/прямоугольник/css/main.css",
+		"/C/node/new4.js",
+		"/C/node/http.js",
+		"/E/Рабочий стол. Разное/31.08.2016 Цитаты. Autoweboffice",
+		"/C/Users/Gold/Desktop/цитаты autoweboffice/автовебофис.txt",
+		"/C/node/home.js",
+		"/C/node/Новый текстовый документ.js",
+		"/C/Users/Gold/Desktop/Spesy/Fact/akk-all.txt",
+		"/H/[HTML Academy] Продвинутый онлайн-интенсив - 2015/ItBursa_JavaScript/Блок_1/Практическое задание/jsbursa1 — копия/index.js"
+	],
+	"find":
+	{
+		"height": 67.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"less",
+			"exludes",
+			"error",
+			" error",
+			"failedRequestMessage",
+			"Sorry, we're unable to display your spin because your connection to our server was lost. \nRest assured that your spin was not wasted. Please check your connection and refresh to try againSorry, we're unable to display your spin because your connection to our server was lost. \nRest assured that your spin was not wasted. Please check your connection and refresh to try again",
+			"Sorry, we're unable to display your spin because your connection to our server was lost. \nRest assured that your spin was not wasted. Please check your connection and refresh to try again",
+			"PrimerApp",
+			");",
+			"main",
+			"        </button >",
+			"        <button class=\"title b-menu__function b-menu__function--inverse\">",
+			"button",
+			"        </button>",
+			"        <button class=\"title b-menu__function\">",
+			"        <button class=\"title b-menu__function\">\n      </button>",
+			"<br",
+			"br",
+			"b-main__send",
+			"before",
+			".b-main__menu-global",
+			".b-main__menu",
+			" .b-main__point {\n        font-size: 15px;\n        display: block;\n    }",
+			"form",
+			"b-main__crumb",
+			"line",
+			"b-main__line",
+			"bung",
+			"b-main__informatin",
+			"b-main__informatin-description",
+			"b-main__company-email",
+			"left",
+			"b-main__menu",
+			"b-main__card",
+			"b-main__h",
+			"b-main",
+			"b-main__client",
+			"b-main__letter",
+			"text",
+			" .b-main__call\n      display: block;",
+			"b-main\n      display: block;",
+			"b-main",
+			"b-main__call",
+			"b-main__price",
+			"red",
+			"border",
+			"b-main__company-check",
+			"number",
+			"b-main__pagination-number",
+			"b-main__price-about",
+			"                    <span class=\"b-main__advertisiment\">Самый клёвый чайник, который надо купить!</span>",
+			"  ",
+			"325317801",
+			"open",
+			" 2052292663",
+			" ",
+			"  ",
+			",",
+			"alt",
+			" дубли\n",
+			" \n",
+			"rel-canonical",
+			"	",
+			"404	1",
+			"	",
+			"Иван",
+			"col-xs-6",
+			"col-sm-6",
+			"         <div class=\" panel panel-default\">",
+			"b-preview_subject",
+			"ученик",
+			"  <td class=\"b-mark_name\">Иван</td>",
+			"	",
+			"@smart_journal",
+			"@record_book",
+			"	",
+			"jpg",
+			"	",
+			"			",
+			"	",
+			" ",
+			"	",
+			"position",
+			"position:",
+			"position",
+			"ui-state-active",
+			"hover",
+			"ui-state-default ui-corner-top",
+			"ui-state-default ui-corner-top ",
+			".ui-tabs",
+			".ui-tabs .ui-tabs-nav li ",
+			".ui-tabs",
+			".ui-tabs ",
+			".ui-tabs-nav li a",
+			" li a",
+			"ui-tabs-nav li a",
+			".ui-tabs-nav li",
+			".ui-tabs-nav li a",
+			".ui-tabs",
+			".ui-tabs .ui-tabs-nav li a",
+			".ui-tabs .ui-tabs-nav li a ",
+			"=\"",
+			"	",
+			".b-ourwork-list-info-element:nth-child(4)",
+			".b-contact-information__name",
+			"width:",
+			"width",
+			"width: 300px",
+			"width: 300px;",
+			"height: 154px",
+			"height: 154px;",
+			"    height: 154px;",
+			"320",
+			"#",
+			"javascript:void(0);",
+			"java",
+			"#",
+			"java",
+			"#",
+			"java",
+			"#",
+			"javascript:void(0)",
+			"#",
+			"javascript:void(0)",
+			"#",
+			"javascript:void(0)",
+			"#",
+			"javascript:void(0)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"                    <p class=\"b-main__advertisiment\">Самый клёвый чайник, который надо купить!</p>",
+			"",
+			"Физика",
+			"",
+			"col-sm-6 col-xs-6",
+			"col-sm-2",
+			"col-sm-3",
+			"",
+			"  <td class=\"b-mark_name\">Физика</td>",
+			"",
+			"@inst_dayfigure",
+			"",
+			"    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/user/user.jsx",
+					"settings":
+					{
+						"buffer_size": 597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/user/App.less",
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/App.less",
+					"settings":
+					{
+						"buffer_size": 784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								318,
+								318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/user/palette.less",
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/main.js",
+					"settings":
+					{
+						"buffer_size": 500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/main.js",
+					"settings":
+					{
+						"buffer_size": 690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/user/user.css",
+					"settings":
+					{
+						"buffer_size": 313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/user/InboxPage.jsx",
+					"settings":
+					{
+						"buffer_size": 525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								525,
+								525
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/user/AboutPage.jsx",
+					"settings":
+					{
+						"buffer_size": 1440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/components/AboutPage.jsx",
+					"settings":
+					{
+						"buffer_size": 1593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1592,
+								1567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/styles/palette.less",
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/E/ReactJS Essential/ReactJS Essential Student/004_Роутинг и ES2015/04-routing-and-es6/02-routing/src/styles/palette.less",
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true
+}
